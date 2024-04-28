@@ -4,3 +4,10 @@ input.addEventListener('input', event => {
     const inputValue = event.currentTarget.value.trim();
     output.textContent = inputValue || 'Anonymous';
 });
+
+
+
+
+
+
+    

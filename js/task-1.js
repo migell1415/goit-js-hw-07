@@ -7,3 +7,4 @@ categoriesList.forEach(category => {
     console.log(`Category: ${categoryName}`);
     console.log(`Items: ${itemsCount}`);
 });
+

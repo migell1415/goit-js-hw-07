@@ -26,8 +26,7 @@ const images = [
 ];
 
 const galleryList = document.querySelector(".gallery");
-const lastThreeImages = images.slice(3, 6);
-lastThreeImages.forEach(image => {
+images.forEach(image => {
   const listItem = document.createElement("li");
   const img = document.createElement("img");
   img.src = image.url;
@@ -35,6 +34,7 @@ lastThreeImages.forEach(image => {
   listItem.appendChild(img);
   galleryList.appendChild(listItem);
 });
+
 
 
 
